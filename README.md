@@ -54,11 +54,7 @@ Make sure you are in the project's root directory.
 10. Run the Django server: By default, the server runs on localhost:8000
     ```shell
     python manage.py runserver
-For a custom server, run:
-    ```shell
-    python manage.py runserver localhost:9090
-Note: Do not use the same port as the Angular app.
-To deactivate the virtual environment, run the following command:
-    ```shell
-    deactivate
-    exit
+For a custom server, run `python manage.py runserver localhost:9090`
+
+Note Do not use the same port as the Angular app.
+To deactivate the virtual environment, simply run `deactivate` and then `exit`
