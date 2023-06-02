@@ -24,7 +24,7 @@ Verify the installation by running `ng --version` to check the Angular CLI versi
 4. Run the Angular app on localhost:4200:
     ```shell
     ng serve --open
-If port :4200 is already in use or you need a custom port, you can run
+If port is already in use or you need a custom port, you can run
     ```shell
     ng serve --host 0.0.0.0 --port 8080
 
