@@ -30,9 +30,8 @@ If port is already in use or you need a custom port, you can run
 
 ## Back-End Setup
 
-Open another terminal separate from the Angular terminal.
-5. Install Python 3.11:
-
+5. Open another terminal separate from the Angular terminal.
+Install Python 3.11
     ```shell
     sudo apt update && sudo apt upgrade
     sudo apt install wget build-essential libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
