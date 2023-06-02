@@ -51,8 +51,8 @@ Make sure you are in the project's root directory.
 9. Install project dependencies:
     ```shell
     pip install -r DjangoApi/requirements.txt
-10. Run the Django server: By default, the server runs on localhost:8000
-    Note Do not use the same port as the Angular app.
+10. Run the Django server: By default, the server runs on localhost:8000 .
+    Do not use the same port as the Angular app.
     ```shell
     python manage.py runserver
 For a custom server, run `python manage.py runserver localhost:9090`
