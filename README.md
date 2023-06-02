@@ -51,7 +51,7 @@ Make sure you are in the project's root directory.
 9. Install project dependencies:
     ```shell
     pip install -r DjangoApi/requirements.txt
-Run the Django server: By default, the server runs on localhost:8000
+10. Run the Django server: By default, the server runs on localhost:8000
     ```shell
     python manage.py runserver
 For a custom server, run:
