@@ -58,3 +58,7 @@ Make sure you are in the project's root directory.
 For a custom server, run `python manage.py runserver localhost:9090`
 
 To deactivate the virtual environment, simply run `deactivate` and then `exit`
+
+### Note. 
+open user_interface/angular14/src/app/share.service.ts in any text editor and on the lines 9 and 10
+change the url to your s3: bucket path or url you will see commented out  
