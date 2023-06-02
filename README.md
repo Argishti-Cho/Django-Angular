@@ -61,4 +61,4 @@ To deactivate the virtual environment, simply run `deactivate` and then `exit`
 
 ### Note. 
 open user_interface/angular14/src/app/share.service.ts in any text editor and on the lines 9 and 10
-change the url to your s3: bucket path or url you will see commented out  
+change the "http://127.0.0.1:8000"; to your s3: bucket path or url. It's commented out  
