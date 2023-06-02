@@ -14,12 +14,12 @@ Visit nodejs.org and choose your operating system version.
 Run the following command to install Node.js and npm:
     ```shell
     sudo apt install nodejs
-This will also install npm. Verify the installation by running node -v to check the Node.js version.
+This will also install npm. Verify the installation by running `node -v` to check the Node.js version.
 
 3. Install Angular CLI (Version 14):
     ```shell
     npm install -g @angular/cli@14
-Verify the installation by running ng --version to check the Angular CLI version.
+Verify the installation by running `ng --version` to check the Angular CLI version.
 
 4. Run the Angular app on localhost:4200:
     ```shell
