@@ -11,10 +11,10 @@ This project is a test project for DevOps classes at ACA. It utilizes Django Res
    git clone git@github.com:Argishti-Cho/Django-Angular.git
 Install Node.js:
 
-Visit nodejs.org and choose your operating system version.
+2. Visit nodejs.org and choose your operating system version.
 Run the following command to install Node.js and npm:
-shell
-sudo apt install nodejs
+    ```shell
+    sudo apt install nodejs
 This will also install npm. Verify the installation by running node -v to check the Node.js version.
 Install Angular CLI (Version 14):
 
