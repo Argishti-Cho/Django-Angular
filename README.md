@@ -24,7 +24,7 @@ Run the following command to install Node.js and npm:
 
 # Verify the installation by running ng --version to check the Angular CLI version.
 # Run the Angular app on localhost:4200:
-
+# In the Project root directory run the following command
 4. ng serve --open
 If port :4200 is already in use or you need a custom port, you can run:
 ng serve --host 0.0.0.0 --port 8080
@@ -59,3 +59,7 @@ By default, the server runs on localhost:8000:
 # for a custom server, run:
 python manage.py runserver localhost:9090
 # Note: Do not use the same port as the Angular app.
+
+# for deactivation just run commande 
+13. deactivate
+14. exit
