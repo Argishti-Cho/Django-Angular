@@ -21,11 +21,11 @@ This will also install npm. Verify the installation by running `node -v` to chec
     npm install -g @angular/cli@14
 Verify the installation by running `ng --version` to check the Angular CLI version.
 
-4. Run the Angular app on localhost:4200:
+4. Build the Angular app:
     ```shell
-    ng serve --open
-If port is already in use or you need a custom port, you can run
-    `ng serve --host 0.0.0.0 --port 8080`
+    ng build 
+It will create a dist/angular14, upload all files inside the dist/angular14 folder into your s3bucket
+    so the index.html will be in the rootdirectory
 
 ## Back-End Setup
 
